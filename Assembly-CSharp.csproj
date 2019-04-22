@@ -53,10 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\InvokeScene.cs" />
-     <Compile Include="Assets\Scripts\ScreenAuto.cs" />
-     <Compile Include="Assets\Scripts\ScreenPortrait.cs" />
-     <Compile Include="Assets\Scripts\VideoSplash.cs" />
+     <Compile Include="Assets\Scripts\Menu\Team.cs" />
+     <Compile Include="Assets\Scripts\Screen.cs" />
+     <Compile Include="Assets\Scripts\Splash\InvokeScene.cs" />
+     <Compile Include="Assets\Scripts\Splash\VideoSplash.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
