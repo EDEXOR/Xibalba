@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Team : MonoBehaviour
 {
-    public GameObject panelTeam;
+    public GameObject panelTeam, panelSettings;
 
-    public void OpenPanel()
+    public void OpenPanelT()
     {
         if (panelTeam != null)
         {
@@ -14,4 +14,14 @@ public class Team : MonoBehaviour
             panelTeam.SetActive(!isActive);
         }
     }
+
+    public void OpenPanelS()
+    {
+        if (panelSettings != null)
+        {
+            bool isActive = panelSettings.activeSelf;
+            panelSettings.SetActive(!isActive);
+        }
+    }
+
 }
