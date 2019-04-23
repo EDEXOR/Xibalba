@@ -53,6 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Cambiar.cs" />
+     <Compile Include="Assets\Scripts\Cihuatan\ModeloEvento.cs" />
      <Compile Include="Assets\Scripts\Menu\Team.cs" />
      <Compile Include="Assets\Scripts\Screen.cs" />
      <Compile Include="Assets\Scripts\Splash\InvokeScene.cs" />
@@ -62,6 +64,7 @@
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\GuiaCihuatan.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
