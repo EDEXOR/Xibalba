@@ -10,5 +10,5 @@ public class ScreenPortrait : MonoBehaviour
         Screen.orientation = ScreenOrientation.Portrait;
     }
 
-  
+
 }
