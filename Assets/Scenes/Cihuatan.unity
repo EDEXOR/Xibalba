@@ -1288,7 +1288,7 @@ GameObject:
   - component: {fileID: 1732725888}
   - component: {fileID: 1732725887}
   m_Layer: 5
-  m_Name: btnSettings
+  m_Name: btnScreenShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1322,11 +1322,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1732725885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02662e6d2a5943142be8b5c3cc2e159b, type: 3}
+  m_Script: {fileID: 11500000, guid: f22d305d9bfb19f4082db522906b7389, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelTeam: {fileID: 0}
-  panelSettings: {fileID: 0}
 --- !u!114 &1732725888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1368,7 +1366,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1732725887}
-        m_MethodName: OpenPanelS
+        m_MethodName: TakeShot
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
