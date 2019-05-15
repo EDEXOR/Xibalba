@@ -56,13 +56,13 @@
      <Compile Include="Assets\Resources\Museo\Siguiente.cs" />
      <Compile Include="Assets\Scripts\Cambiar.cs" />
      <Compile Include="Assets\Scripts\Cihuatan\ModeloEvento.cs" />
-     <Compile Include="Assets\Scripts\Menu\Team.cs" />
      <Compile Include="Assets\Scripts\ScreenAuto.cs" />
      <Compile Include="Assets\Scripts\ScreenPortrait.cs" />
      <Compile Include="Assets\Scripts\ScreenShot.cs" />
      <Compile Include="Assets\Scripts\Splash\Gif.cs" />
      <Compile Include="Assets\Scripts\Splash\InvokeScene.cs" />
      <Compile Include="Assets\Scripts\Splash\VideoSplash.cs" />
+     <Compile Include="Assets\Scripts\Team.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />

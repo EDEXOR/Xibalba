@@ -18,4 +18,11 @@ public class Cambiar : MonoBehaviour
     {
         objeto3D.transform.rotation = Quaternion.Euler(0, sliderRotacion.value, 0);
     }
+
+    public int speed;
+    // Auto rotate
+    void Update()
+    {
+        transform.RotateAround(transform.position, Vector2.up, speed * Time.deltaTime);
+    }
 }
