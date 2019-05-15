@@ -604,7 +604,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 5b6b35e542902714ba590bdeb3e6ea82, type: 3}
       propertyPath: m_Name
-      value: Chuchito
+      value: Chuchito#1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5b6b35e542902714ba590bdeb3e6ea82, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1063,7 +1063,7 @@ GameObject:
   - component: {fileID: 851827003}
   - component: {fileID: 851827002}
   m_Layer: 5
-  m_Name: Cuchito#1
+  m_Name: txtChuchito#1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1297,7 +1297,7 @@ GameObject:
   - component: {fileID: 1137822491}
   - component: {fileID: 1137822490}
   m_Layer: 5
-  m_Name: TextMeshPro Text
+  m_Name: pChuchito#1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
