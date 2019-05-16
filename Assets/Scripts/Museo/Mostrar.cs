@@ -7,33 +7,20 @@ public class Mostrar : MonoBehaviour
 {
 
     //Guardar objeto a visualizar  
+    public  int Valor = 0;
     public static int valor;
+    //public int num;
 
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
     }
-    
-    public GameObject opc1, opc2, opc3;
-    public void Start()
+
+    public GameObject opc1, opc2, opc3, opc4, opc5, opc6, opc7, opc8, opc9;
+      
+    public void optenerTag()
     {
-        if (opc1 = GameObject.FindGameObjectWithTag("opc1"))
-        {            
-            valor = 1;
-            Debug.Log("Valor 1");
-        }
-        else if (opc2 = GameObject.FindGameObjectWithTag("opc2"))
-        {
-            valor = 2;
-            Debug.Log("Valor 2");
-        }
-        else if (opc3 = GameObject.FindGameObjectWithTag("opc3"))
-        {
-            valor = 3;
-            Debug.Log("Valor 3");
-        }
-           
+        valor = Valor;
     }
-   
-   
+
 }
