@@ -11,6 +11,7 @@ public class Cambiar : MonoBehaviour
     
     public void cambiarEscena(string nombre)
     {
+        //Debug.Log(nombre);
         SceneManager.LoadScene(nombre);
     }
 
@@ -25,4 +26,6 @@ public class Cambiar : MonoBehaviour
     {
         transform.RotateAround(transform.position, Vector2.up, speed * Time.deltaTime);
     }
+
+    
 }
