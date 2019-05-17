@@ -9,6 +9,7 @@ public class Mostrar : MonoBehaviour
     //Guardar objeto a visualizar  
     public  int Valor = 0;
     public static int valor;
+    public string idioma;
     //public int num;
 
     void Awake()
@@ -21,6 +22,8 @@ public class Mostrar : MonoBehaviour
     public void optenerTag()
     {
         valor = Valor;
+        idioma = PlayerPrefs.GetString("languaje", "");
+        Debug.Log(idioma);
     }
 
 }
