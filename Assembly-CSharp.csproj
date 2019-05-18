@@ -56,7 +56,7 @@
      <Compile Include="Assets\Resources\Museo\Siguiente.cs" />
      <Compile Include="Assets\Scripts\Cambiar.cs" />
      <Compile Include="Assets\Scripts\Cihuatan\ModeloEvento.cs" />
-     <Compile Include="Assets\Scripts\Languajes.cs" />
+     <Compile Include="Assets\Scripts\Languages.cs" />
      <Compile Include="Assets\Scripts\Museo\Mostrar.cs" />
      <Compile Include="Assets\Scripts\Museo\ObjetoShow.cs" />
      <Compile Include="Assets\Scripts\ScreenAuto.cs" />

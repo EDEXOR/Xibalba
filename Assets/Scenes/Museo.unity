@@ -272,7 +272,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 204543155}
-        m_MethodName: optenerTag
+        m_MethodName: btn5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -334,15 +334,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Valor: 5
-  opc1: {fileID: 0}
-  opc2: {fileID: 0}
-  opc3: {fileID: 0}
-  opc4: {fileID: 0}
-  opc5: {fileID: 0}
-  opc6: {fileID: 0}
-  opc7: {fileID: 0}
-  opc8: {fileID: 0}
-  opc9: {fileID: 0}
+  est: 0
+  idioma: 
+  mu1: {fileID: 1791714574}
 --- !u!1 &402658093
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,7 +428,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 402658098}
-        m_MethodName: optenerTag
+        m_MethodName: btn8
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -496,15 +490,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Valor: 8
-  opc1: {fileID: 0}
-  opc2: {fileID: 0}
-  opc3: {fileID: 0}
-  opc4: {fileID: 0}
-  opc5: {fileID: 0}
-  opc6: {fileID: 0}
-  opc7: {fileID: 0}
-  opc8: {fileID: 0}
-  opc9: {fileID: 0}
+  est: 0
+  idioma: 
+  mu1: {fileID: 1791714574}
 --- !u!1 &439668739
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,7 +658,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 469039018}
-        m_MethodName: optenerTag
+        m_MethodName: btn4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -732,15 +720,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Valor: 4
-  opc1: {fileID: 0}
-  opc2: {fileID: 0}
-  opc3: {fileID: 0}
-  opc4: {fileID: 0}
-  opc5: {fileID: 0}
-  opc6: {fileID: 0}
-  opc7: {fileID: 0}
-  opc8: {fileID: 0}
-  opc9: {fileID: 0}
+  est: 0
+  idioma: 
+  mu1: {fileID: 1791714574}
 --- !u!1 &562341703
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,7 +814,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 562341708}
-        m_MethodName: optenerTag
+        m_MethodName: btn9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -894,15 +876,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Valor: 9
-  opc1: {fileID: 0}
-  opc2: {fileID: 0}
-  opc3: {fileID: 0}
-  opc4: {fileID: 0}
-  opc5: {fileID: 0}
-  opc6: {fileID: 0}
-  opc7: {fileID: 0}
-  opc8: {fileID: 0}
-  opc9: {fileID: 0}
+  est: 0
+  idioma: 
+  mu1: {fileID: 1791714574}
 --- !u!1 &576591897
 GameObject:
   m_ObjectHideFlags: 0
@@ -933,15 +909,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Valor: 0
-  opc1: {fileID: 0}
-  opc2: {fileID: 0}
-  opc3: {fileID: 0}
-  opc4: {fileID: 0}
-  opc5: {fileID: 0}
-  opc6: {fileID: 0}
-  opc7: {fileID: 0}
-  opc8: {fileID: 0}
-  opc9: {fileID: 0}
+  est: 0
+  idioma: 
+  mu1: {fileID: 1791714574}
 --- !u!4 &576591899
 Transform:
   m_ObjectHideFlags: 0
@@ -1187,7 +1157,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 642213952}
-        m_MethodName: optenerTag
+        m_MethodName: btn7
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1249,15 +1219,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Valor: 7
-  opc1: {fileID: 0}
-  opc2: {fileID: 0}
-  opc3: {fileID: 0}
-  opc4: {fileID: 0}
-  opc5: {fileID: 0}
-  opc6: {fileID: 0}
-  opc7: {fileID: 0}
-  opc8: {fileID: 0}
-  opc9: {fileID: 0}
+  est: 0
+  idioma: 
+  mu1: {fileID: 1791714574}
 --- !u!1 &1148096278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1349,7 +1313,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1148096283}
-        m_MethodName: optenerTag
+        m_MethodName: btn1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1411,15 +1375,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Valor: 1
-  opc1: {fileID: 0}
-  opc2: {fileID: 0}
-  opc3: {fileID: 0}
-  opc4: {fileID: 0}
-  opc5: {fileID: 0}
-  opc6: {fileID: 0}
-  opc7: {fileID: 0}
-  opc8: {fileID: 0}
-  opc9: {fileID: 0}
+  est: 0
+  idioma: 
+  mu1: {fileID: 1791714574}
 --- !u!1 &1201988736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,7 +1469,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1201988741}
-        m_MethodName: optenerTag
+        m_MethodName: btn2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1573,15 +1531,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Valor: 2
-  opc1: {fileID: 0}
-  opc2: {fileID: 0}
-  opc3: {fileID: 0}
-  opc4: {fileID: 0}
-  opc5: {fileID: 0}
-  opc6: {fileID: 0}
-  opc7: {fileID: 0}
-  opc8: {fileID: 0}
-  opc9: {fileID: 0}
+  est: 0
+  idioma: 
+  mu1: {fileID: 1791714574}
 --- !u!1 &1290686789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,7 +1736,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1509033524}
-        m_MethodName: optenerTag
+        m_MethodName: btn6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1846,15 +1798,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Valor: 6
-  opc1: {fileID: 0}
-  opc2: {fileID: 0}
-  opc3: {fileID: 0}
-  opc4: {fileID: 0}
-  opc5: {fileID: 0}
-  opc6: {fileID: 0}
-  opc7: {fileID: 0}
-  opc8: {fileID: 0}
-  opc9: {fileID: 0}
+  est: 0
+  idioma: 
+  mu1: {fileID: 1791714574}
 --- !u!1 &1527383506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,7 +1892,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1527383511}
-        m_MethodName: optenerTag
+        m_MethodName: btn3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2008,15 +1954,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Valor: 3
-  opc1: {fileID: 0}
-  opc2: {fileID: 0}
-  opc3: {fileID: 0}
-  opc4: {fileID: 0}
-  opc5: {fileID: 0}
-  opc6: {fileID: 0}
-  opc7: {fileID: 0}
-  opc8: {fileID: 0}
-  opc9: {fileID: 0}
+  est: 0
+  idioma: 
+  mu1: {fileID: 1791714574}
 --- !u!1 &1708676954
 GameObject:
   m_ObjectHideFlags: 0
@@ -2139,6 +2079,7 @@ GameObject:
   - component: {fileID: 1791714573}
   - component: {fileID: 1791714575}
   - component: {fileID: 1791714574}
+  - component: {fileID: 1791714576}
   m_Layer: 5
   m_Name: txtMuseo
   m_TagString: Untagged
@@ -2288,6 +2229,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791714572}
   m_CullTransparentMesh: 0
+--- !u!114 &1791714576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791714572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98c6ee5f431eae4aba9bca145fffd66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Valor: 0
+  est: 0
+  idioma: 
+  mu1: {fileID: 1791714574}
 --- !u!1 &1834589076
 GameObject:
   m_ObjectHideFlags: 0

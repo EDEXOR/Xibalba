@@ -1628,7 +1628,7 @@ GameObject:
   - component: {fileID: 1102655439}
   - component: {fileID: 1102655438}
   m_Layer: 0
-  m_Name: Languaje
+  m_Name: Language
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2740,7 +2740,7 @@ GameObject:
   - component: {fileID: 2108115419}
   - component: {fileID: 2108115421}
   m_Layer: 5
-  m_Name: Cihutan
+  m_Name: Cihuatan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

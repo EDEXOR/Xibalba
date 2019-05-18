@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class Languajes : MonoBehaviour
+public class Languages : MonoBehaviour
 {
     public static string lang;
     public static int est;
