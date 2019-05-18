@@ -61,8 +61,6 @@
      <Compile Include="Assets\Scripts\Museo\ObjetoShow.cs" />
      <Compile Include="Assets\Scripts\ScreenAuto.cs" />
      <Compile Include="Assets\Scripts\ScreenPortrait.cs" />
-     <Compile Include="Assets\Scripts\ScreenShot.cs" />
-     <Compile Include="Assets\Scripts\Splash\Gif.cs" />
      <Compile Include="Assets\Scripts\Splash\InvokeScene.cs" />
      <Compile Include="Assets\Scripts\Splash\VideoSplash.cs" />
      <Compile Include="Assets\Scripts\Team.cs" />

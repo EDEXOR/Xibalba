@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿// Jeremías 29:11
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,7 +13,7 @@ public class ObjetoShow : MonoBehaviour
     public TextMeshProUGUI txt1, txt2, txt3, txt4, txt5, txt6, txt7, txt8, txt9, txt10; //TEMA PRINCIPAL MODELO 3D
     public TextMeshProUGUI p1, p2, p3, p4, p5, p6, p7, p8, p9; //PARRAFO VENTANA MODAL
     public TextMeshProUGUI ptxt1, ptxt2, ptxt3, ptxt4, ptxt5, ptxt6, ptxt7, ptxt8, ptxt9;  //TEMA VENTANA MODAL
-    public Button btn1, btn2;
+    public Button btn1, btn2; // BOTONES DE INFORMACION
 
     void Start()
     {
@@ -46,7 +47,6 @@ public class ObjetoShow : MonoBehaviour
                    "restos cerámicos, entre ellos una figura casi completa. Don Ernesto Uribe un año encontró " +
                    "la cabeza de una figura y probablemente parte de una con ruedas.";
                     ptxt1.text = "Esfinge de perro";
-                    
                 }
                 else if(idioma == "Ingles")
                 {
@@ -69,14 +69,16 @@ public class ObjetoShow : MonoBehaviour
                 {
                     txt2.text = "Esfinje de jaguar";
                     p2.text = "La esfinge del jaguar fue otro objeto utilizado en los sacrificios religiosos de Cihuatán, " +
-                   "hechos de barro y de carácter votivo. Las pequeñas estatuas de esfinge fueron encontradas de forma sentada, " +
-                   "ninguna figura pudo ser restaurada completamente por sus daños, fueron encontradas en el templo de los ídolos.";
+                        "hechos de barro y de carácter votivo. Las pequeñas estatuas de esfinge fueron encontradas de forma sentada, " +
+                        "ninguna figura pudo ser restaurada completamente por sus daños, fueron encontradas en el templo de los ídolos.";
                     ptxt2.text = "Esfinje de jaguar";
                 }
                 else if (idioma == "Ingles")
                 {
                     txt2.text = "Jaguar sphinx";
-                    p2.text = "";
+                    p2.text = "The sphinx of the jaguar was another object used in the religious sacrifices of Cihuatán, made of clay and votive character." +
+                        " The small statues of sphinx were found in a sitting position, no figure could be completely restored by their damage, they were found " +
+                        "in the temple of the idols.";
                     ptxt2.text = "Jaguar sphinx";
                 }
 
@@ -111,15 +113,17 @@ public class ObjetoShow : MonoBehaviour
                 {
                     txt4.text = "Incensario gigante";
                     p4.text = "Gran parte de la cerámica desenterrada pertenece a una clase de incensario gigante, con paredes gruesas y decoración al patillaje " +
-                    "de considerable variedad y temas: incluyen formas “reloj de arena” o bicónicas, con fondos compuestos de grandes discos de barro removibles. " +
-                    "Sus adornos incluyen caras modeladas del dios de la lluvia Tlaloc, las de otros dioses y de espigas. Su altura máxima pudo haber excedido los 1.5 m " +
-                    "y diámetro máximo sobrepasa 1m.";
+                        "de considerable variedad y temas: incluyen formas “reloj de arena” o bicónicas, con fondos compuestos de grandes discos de barro removibles. " +
+                        "Sus adornos incluyen caras modeladas del dios de la lluvia Tlaloc, las de otros dioses y de espigas. Su altura máxima pudo haber excedido los 1.5 m " +
+                        "y diámetro máximo sobrepasa 1m.";
                     ptxt4.text = "Incensario gigante";
                 }
                 else if (idioma == "Ingles")
                 {
                     txt4.text = "Giant censer";
-                    p4.text = "";
+                    p4.text = "Much of the unearthed ceramics belongs to a kind of giant incense burner, with thick walls and palette decoration of considerable variety and themes: they include " +
+                        "'hourglass' or biconical shapes, with backgrounds composed of large removable mud disks. Its ornaments include patterned faces of the rain god Tlaloc, those of other gods and spikes. " +
+                        "Its maximum height may have exceeded 1.5 m and maximum diameter exceeds 1m.";
                     ptxt4.text = "Giant censer";
                 }
 
@@ -230,15 +234,8 @@ public class ObjetoShow : MonoBehaviour
                 break;
 
             default:
-                if (idioma == "Español")
-                {
-                    Debug.Log("Ohh no! Algo ha salido mal");
-                }
-                else if (idioma == "Ingles")
-                {
-                    Debug.Log("Ohh no! It´s not working!");
-                }
-                
+                Debug.Log(idioma);
+
                 break;
         }
 
