@@ -1,3 +1,4 @@
+// Jeremías 29:11
 using UnityEngine;
 using System;
 using System.Collections;
@@ -8,7 +9,7 @@ using Vuforia;
 public class UDTEventHandler : MonoBehaviour, IUserDefinedTargetEventHandler
 {
 	public ImageTargetBehaviour ImageTargetTemplate;
-	const int MAX_TARGETS = 3; //Cantidad maxima de instancias
+	const int MAX_TARGETS = 2; //Cantidad maxima de instancias
 	int m_TargetCounter;
 
 	public int LastTargetIndex {

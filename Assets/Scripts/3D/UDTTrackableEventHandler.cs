@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿// Jeremías 29:11
+using UnityEngine;
 using Vuforia;
 
 public class UDTTrackableEventHandler : MonoBehaviour, ITrackableEventHandler {
 
 	protected TrackableBehaviour mTrackableBehaviour;
 	public Canvas canvas;
+    public GameObject btn1, btn2;
 
 
 	protected virtual void Start () {
@@ -26,8 +28,11 @@ public class UDTTrackableEventHandler : MonoBehaviour, ITrackableEventHandler {
 			newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED) {
 			//Debug.Log ("Trackable " + mTrackableBehaviour.TrackableName + " found");
 			OnTrackingFound ();
-			canvas.enabled = false;
-		} else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
+            btn1.SetActive(false);
+            btn2.SetActive(false);
+
+
+        } else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
 				   newStatus == TrackableBehaviour.Status.NO_POSE) {
 			//Debug.Log ("Trackable " + mTrackableBehaviour.TrackableName + " lost");
 			OnTrackingLost ();

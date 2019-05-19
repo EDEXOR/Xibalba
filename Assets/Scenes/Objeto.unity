@@ -2215,6 +2215,7 @@ GameObject:
   - component: {fileID: 608403901}
   - component: {fileID: 608403900}
   - component: {fileID: 608403899}
+  - component: {fileID: 608403903}
   m_Layer: 5
   m_Name: panelInfo
   m_TagString: Untagged
@@ -2321,6 +2322,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &608403903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608403898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02662e6d2a5943142be8b5c3cc2e159b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelTeam: {fileID: 0}
+  panelSettings: {fileID: 0}
+  panelInfo: {fileID: 608403898}
 --- !u!1001 &624424642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2794,7 +2810,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4854,7 +4870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panelTeam: {fileID: 0}
   panelSettings: {fileID: 0}
-  panelInfo: {fileID: 608403898}
+  panelInfo: {fileID: 0}
 --- !u!1 &1387897261
 GameObject:
   m_ObjectHideFlags: 0

@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Resources\Museo\Siguiente.cs" />
+     <Compile Include="Assets\Scripts\3D\Ar.cs" />
      <Compile Include="Assets\Scripts\3D\UDTEventHandler.cs" />
      <Compile Include="Assets\Scripts\3D\UDTFrameQualityMeter.cs" />
      <Compile Include="Assets\Scripts\3D\UDTTrackableEventHandler.cs" />
