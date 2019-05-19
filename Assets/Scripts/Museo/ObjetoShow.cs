@@ -17,10 +17,11 @@ public class ObjetoShow : MonoBehaviour
 
     void Start()
     {
-        idioma = PlayerPrefs.GetString("language", "");
+        idioma = Languages.lang;
         Debug.Log(idioma);
 
-        master = PlayerPrefs.GetInt("opc", 1 );
+        master = Mostrar.opc;
+        Debug.Log(master);
 
         if (idioma == "Español")
         {
@@ -38,7 +39,12 @@ public class ObjetoShow : MonoBehaviour
 
         switch (master)
         {
-            case 1:  
+            case 1:
+                obj1.SetActive(true);
+                txt1.gameObject.SetActive(true);
+                p1.gameObject.SetActive(true);
+                ptxt1.gameObject.SetActive(true);
+
                 if (idioma == "Español")
                 {
                     txt1.text = "Esfinge de perro";
@@ -48,7 +54,7 @@ public class ObjetoShow : MonoBehaviour
                    "la cabeza de una figura y probablemente parte de una con ruedas.";
                     ptxt1.text = "Esfinge de perro";
                 }
-                else if(idioma == "Ingles")
+                else if (idioma == "Ingles")
                 {
                     txt1.text = "Dog sphinx";
                     p1.text = "The sphinxes of dogs were used in ceremonies of votive character, made of the same mud used " +
@@ -56,14 +62,13 @@ public class ObjetoShow : MonoBehaviour
                         "Uribe one year found the head of a figure and probably part of one with wheels.";
                     ptxt1.text = "Dog sphinx";
                 }
-
-                obj1.SetActive(true);
-                txt1.gameObject.SetActive(true);
-                p1.gameObject.SetActive(true);
-                ptxt1.gameObject.SetActive(true);
                 break;
 
             case 2:
+                obj2.SetActive(true);
+                txt2.gameObject.SetActive(true);
+                p2.gameObject.SetActive(true);
+                ptxt2.gameObject.SetActive(true);
 
                 if (idioma == "Español")
                 {
@@ -82,13 +87,14 @@ public class ObjetoShow : MonoBehaviour
                     ptxt2.text = "Jaguar sphinx";
                 }
 
-                obj2.SetActive(true);
-                txt2.gameObject.SetActive(true);
-                p2.gameObject.SetActive(true);
-                ptxt2.gameObject.SetActive(true);
                 break;
 
             case 3:
+                obj3.SetActive(true);
+                txt3.gameObject.SetActive(true);
+                p3.gameObject.SetActive(true);
+                ptxt3.gameObject.SetActive(true);
+
                 if (idioma == "Español")
                 {
                     txt3.text = "Traje típico";
@@ -102,13 +108,14 @@ public class ObjetoShow : MonoBehaviour
                     ptxt3.text = "Typical costume";
                 }
 
-                obj3.SetActive(true);
-                txt3.gameObject.SetActive(true);
-                p3.gameObject.SetActive(true);
-                ptxt3.gameObject.SetActive(true);
                 break;
 
             case 4:
+                obj4.SetActive(true);
+                txt4.gameObject.SetActive(true);
+                p4.gameObject.SetActive(true);
+                ptxt4.gameObject.SetActive(true);
+
                 if (idioma == "Español")
                 {
                     txt4.text = "Incensario gigante";
@@ -127,13 +134,15 @@ public class ObjetoShow : MonoBehaviour
                     ptxt4.text = "Giant censer";
                 }
 
-                obj4.SetActive(true);
-                txt4.gameObject.SetActive(true);
-                p4.gameObject.SetActive(true);
-                ptxt4.gameObject.SetActive(true);
+
                 break;
 
             case 5:
+                obj5.SetActive(true);
+                txt5.gameObject.SetActive(true);
+                p5.gameObject.SetActive(true);
+                ptxt5.gameObject.SetActive(true);
+
                 if (idioma == "Español")
                 {
                     txt5.text = "Tablilla de mazapán";
@@ -147,13 +156,14 @@ public class ObjetoShow : MonoBehaviour
                     ptxt5.text = "Marzipan tablet";
                 }
 
-                obj5.SetActive(true);
-                txt5.gameObject.SetActive(true);
-                p5.gameObject.SetActive(true);
-                ptxt5.gameObject.SetActive(true);
                 break;
 
             case 6:
+                obj6.SetActive(true);
+                txt6.gameObject.SetActive(true);
+                p6.gameObject.SetActive(true);
+                ptxt6.gameObject.SetActive(true);
+
                 if (idioma == "Español")
                 {
                     txt6.text = "Punta de flecha";
@@ -167,13 +177,14 @@ public class ObjetoShow : MonoBehaviour
                     ptxt6.text = "Arrowhead";
                 }
 
-                obj6.SetActive(true);
-                txt6.gameObject.SetActive(true);
-                p6.gameObject.SetActive(true);
-                ptxt6.gameObject.SetActive(true);
                 break;
 
             case 7:
+                obj7.SetActive(true);
+                txt7.gameObject.SetActive(true);
+                p7.gameObject.SetActive(true);
+                ptxt7.gameObject.SetActive(true);
+
                 if (idioma == "Español")
                 {
                     txt7.text = "Plato de cerámica";
@@ -187,13 +198,14 @@ public class ObjetoShow : MonoBehaviour
                     ptxt7.text = "Ceramic dish";
                 }
 
-                obj7.SetActive(true);
-                txt7.gameObject.SetActive(true);
-                p7.gameObject.SetActive(true);
-                ptxt7.gameObject.SetActive(true);
                 break;
 
             case 8:
+                obj8.SetActive(true);
+                txt8.gameObject.SetActive(true);
+                p8.gameObject.SetActive(true);
+                ptxt8.gameObject.SetActive(true);
+
                 if (idioma == "Español")
                 {
                     txt8.text = "Máscara de cráneo";
@@ -207,13 +219,14 @@ public class ObjetoShow : MonoBehaviour
                     ptxt8.text = "Skull mask";
                 }
 
-                obj8.SetActive(true);
-                txt8.gameObject.SetActive(true);
-                p8.gameObject.SetActive(true);
-                ptxt8.gameObject.SetActive(true);
                 break;
 
             case 9:
+                obj9.SetActive(true);
+                txt9.gameObject.SetActive(true);
+                p9.gameObject.SetActive(true);
+                ptxt9.gameObject.SetActive(true);
+
                 if (idioma == "Español")
                 {
                     txt9.text = "Máscara";
@@ -227,19 +240,11 @@ public class ObjetoShow : MonoBehaviour
                     ptxt9.text = "Mask";
                 }
 
-                obj9.SetActive(true);
-                txt9.gameObject.SetActive(true);
-                p9.gameObject.SetActive(true);
-                ptxt9.gameObject.SetActive(true);
                 break;
 
-            default:
-                Debug.Log(idioma);
-
-                break;
         }
 
-        
+
     }
 
     public void btnIdioma()
@@ -256,4 +261,12 @@ public class ObjetoShow : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        idioma = Languages.lang;
+        Debug.Log(idioma);
+
+        master = Mostrar.opc;
+        Debug.Log(master);
+    }
 }

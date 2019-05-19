@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Resources\Museo\Siguiente.cs" />
+     <Compile Include="Assets\Scripts\3D\UDTEventHandler.cs" />
+     <Compile Include="Assets\Scripts\3D\UDTFrameQualityMeter.cs" />
+     <Compile Include="Assets\Scripts\3D\UDTTrackableEventHandler.cs" />
      <Compile Include="Assets\Scripts\Cambiar.cs" />
      <Compile Include="Assets\Scripts\Cihuatan\ModeloEvento.cs" />
      <Compile Include="Assets\Scripts\Languages.cs" />
@@ -77,7 +80,6 @@
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />

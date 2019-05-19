@@ -1,12 +1,13 @@
 Android
 PlayerPath?
-C:/Users/ser00/Desktop/Recursos X/APKS/CihuatanAR_Beta.apk
+C:/Users/ser00/Desktop/Recursos X/APKS/CihuatanAR_Beta3.apk
 SceneListBegin?
 Assets/Scenes/Splash.unity
 Assets/Scenes/Menu.unity
 Assets/Scenes/Cihuatan.unity
 Assets/Scenes/Museo.unity
 Assets/Scenes/Objeto.unity
+Assets/Scenes/3D.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -315,3 +316,6 @@ cd67f3e1e9ccac6db86c1564cea5a827 Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+e9539b36af987b1fc4d5169f5d2f3d29 Assembly-CSharp.dll:.UDTTrackableEventHandler
+9870d07becb995371db036f64345cf30 Assembly-CSharp.dll:.UDTFrameQualityMeter
+7125fb122fb7d770e4ee0697b73cfab0 Assembly-CSharp.dll:.UDTEventHandler
