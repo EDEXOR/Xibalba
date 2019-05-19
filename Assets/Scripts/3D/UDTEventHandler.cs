@@ -90,5 +90,7 @@ public class UDTEventHandler : MonoBehaviour, IUserDefinedTargetEventHandler
             Debug.Log("No se puede instanciar el objeto; poca calidad de Imagen");
         }
     }
+
+   
     
 }
