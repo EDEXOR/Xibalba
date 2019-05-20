@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/ser00/Desktop/Recursos X/APKS/CihuatanAR_Beta3.apk
+C:/Users/ser00/Desktop/Recursos X/APKS/CihuatanAR_Beta.apk
 SceneListBegin?
 Assets/Scenes/Splash.unity
 Assets/Scenes/Menu.unity
@@ -198,6 +198,7 @@ cd67f3e1e9ccac6db86c1564cea5a827 Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 2cc50a34a15f9bcf75247a76c2378ede Assembly-CSharp.dll:.Mostrar
+cef3c923a372d3365de23029b1022138 Assembly-CSharp.dll:.Ar
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
@@ -319,4 +320,3 @@ cd67f3e1e9ccac6db86c1564cea5a827 Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-cef3c923a372d3365de23029b1022138 Assembly-CSharp.dll:.Ar

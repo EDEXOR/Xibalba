@@ -37,11 +37,16 @@ public class UDTTrackableEventHandler : MonoBehaviour, ITrackableEventHandler {
 			//Debug.Log ("Trackable " + mTrackableBehaviour.TrackableName + " lost");
 			OnTrackingLost ();
 			canvas.enabled = true;
-		} else {
+            btn1.SetActive(true);
+            btn2.SetActive(true);
+        } else {
 			OnTrackingLost ();
 			canvas.enabled = true;
-		}
-	}
+            btn1.SetActive(true);
+            btn2.SetActive(true);
+
+        }
+    }
 
 	protected virtual void OnTrackingFound () {
 		var rendererComponents = GetComponentsInChildren<Renderer> (true);
