@@ -2,7 +2,6 @@ Android
 PlayerPath?
 C:/Users/ser00/Desktop/Recursos X/APKS/CihuatanAR_Beta.apk
 SceneListBegin?
-Assets/Scenes/Splash.unity
 Assets/Scenes/Menu.unity
 Assets/Scenes/Cihuatan.unity
 Assets/Scenes/Museo.unity
